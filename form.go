@@ -117,8 +117,8 @@ func (f TaskForm) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		f.col.list.Index()
 	case tea.KeyMsg:
 		switch {
-		case key.Matches(msg, keys.Quit):
-			return f, tea.Quit
+		case key.Matches(msg, keys.Escape):
+			return board.Update(nil)
 
 		case key.Matches(msg, keys.Back):
 			return board.Update(nil)

@@ -47,6 +47,7 @@ type keyMap struct {
 	Block       key.Binding
 	BlockSelect key.Binding
 	BlockSubmit key.Binding
+	Escape      key.Binding
 }
 
 var keys = keyMap{
@@ -133,5 +134,9 @@ var keys = keyMap{
 	BlockSubmit: key.NewBinding(
 		key.WithKeys("enter"),
 		key.WithHelp("enter", "submit"),
+	),
+	Escape: key.NewBinding(
+		key.WithKeys("esc"),
+		key.WithHelp("escape", "back"),
 	),
 }
