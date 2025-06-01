@@ -47,6 +47,10 @@ go install github.com/DerTimonius/twkb
 | `Esc`            | `all forms`                 | Go back to `normal` view                             |
 | `y`              | `confirmation screen`       | Confirm                                              |
 
+## Nvim
+
+To open twkb in Neovim, I have written a small [plugin, `twkb.nvim`](https://github.com/DerTimonius/twkb.nvim)
+
 ## Contributing
 
 Contributions are always welcome! Please open an issue or submit a pull request if you have any improvements, bug fixes, or new features to propose.
