@@ -26,7 +26,7 @@ In development:
 Currently, the way to install **twkb** is to use `go install`:
 
 ```sh copy
-go install github.com/DerTimonius/twkb
+go install github.com/DerTimonius/twkb@latest
 ```
 
 ## Usage
